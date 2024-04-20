@@ -1,0 +1,29 @@
+name: imle
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch==1.13.0
+  - torchvision==0.14.0
+  - torchaudio==0.13.0
+  - cudatoolkit=11.7
+  - pip
+  - pip:
+    - Cython
+    - h5py
+    - joblib
+    - numpy
+    - opencv-python
+    - plyfile
+    - scipy
+    - tensorboardX
+    - tqdm
+    - trimesh
+    - chainer
+    - open3d
+    - lightning
+    - ftfy 
+    - regex
+    - git+https://github.com/openai/CLIP.git
