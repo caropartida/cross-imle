@@ -1,11 +1,7 @@
-### Installation
+Modified loss to try to improve latent space representation when using clip using:
 
-1. Install Earth Mover Distance (EMD)[https://github.com/daerduoCarey/PyTorchEMD]
+CrossPoint: Self-Supervised Cross-Modal Contrastive Learning for 3D Point Cloud Understanding"
 
-It's a pain to install it btw, you need to fix using the following resources
-https://github.com/daerduoCarey/PyTorchEMD/issues/6
-https://github.com/NVlabs/instant-ngp/issues/119
+Dynamic Graph CNN for Learning on Point Clouds
 
-2. Install dciknn-cuda[https://github.com/niopeng/dciknn_cuda/tree/master]
-If you encounter gcc issues 
-https://github.com/NVlabs/instant-ngp/issues/119
+OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding
